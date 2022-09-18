@@ -6,64 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+    
 </head>
+
 <body>
-
-        <img src="./Assets/imagenes/codoacodo.png" alt="logo  de codo a codo" loading="lazy"> 
-
-        <h2>Conferencia Bs. As</h2>
-        <a href="#">La conferencia</a>
-        <header>
-            <nav>
-                <a href="./Pages/los_oradores.html">Los oradores</a>
-                <a href="./Pages/lugaryfecha.html">Lugar y fecha</a>
-                <a href="./Pages/contacto.html">Conviértete en orador</a>
-                <a href="./Pages/comprartickets.html">Comprar tickets</a>
+    <header class="headerFlex">
+<div class="logo">
+    <img class="imagenlogo" src="./Assets/imagenes/codoacodo.png" alt="logo de codo a codo" loading="lazy"> 
+    <h2>Conferencia Bs. As</h2>
+</div> 
+            
+            <nav class="navegador"> 
+                <a class="links"  href="#">La conferencia</a>
+                <a class="links"  href="./Pages/los_oradores.html">Los oradores</a>
+                <a class="links"  href="./Pages/lugaryfecha.html">Lugar y fecha</a>
+                <a class="links"  href="./Pages/contacto.html">Conviértete en orador</a>
+                <a class="links"  href="./Pages/comprartickets.html">Comprar tickets</a>
             </nav>
+    
         </header>
      <main>
-        <section>
-            <img src="./Assets/imagenes/ba1.jpg" alt="Palacio de Aguas Argentinas" width="900">
-            <h1>Conferencia Buenos Aires</h1>
+        <section class="principal">
+            <div class="contenidoprincipal">
+             <h1>Conferencia Buenos Aires</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, consectetur obcaecati. Tempora vitae aspernatur magni nam sapiente, fuga assumenda distinctio, magnam consequuntur animi temporibus enim, molestias hic expedita sequi est?</p>
-            <a href="./Pages/comprartickets.html">Comprar Tickets</a>
-            <a href="./Pages/contacto.html">Quiero ser orador</a>
+           <a href="./Pages/comprartickets.html">Comprar Tickets</a>
+           <a href="./Pages/contacto.html">Quiero ser orador</a>
+        </div>
         </section>
+
      </main>
      <br>
      <br>   
-     <section>
-
+     <section class="tarjetas">
         <div>
-            <img src="./Assets/imagenes/steve.jpg" alt="Steve Jobs" loading="lazy" width="300">
+            <h3>Conoce a los</h3>
+            <h2>ORADORES</h2>
+        </div>
+        <div class="padretarjetas">
+            <div class="tarjetaflex"> 
+                <div class="tarjeta">
+            <img class="tarjetaimagen"src="./Assets/imagenes/steve.jpg" alt="Steve Jobs" loading="lazy" width="300">
+            <div class="contenidotarjeta">
             <h3>Steve Jobs</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, qui quibusdam! At doloremque magni vel voluptas culpa accusamus laborum quis, vitae ratione molestias ad doloribus totam! Rerum mollitia quos aspernatur.</p>
+            <div class="tarjetaparrafo">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>  Animi, qui quibusdam! At doloremque magni vel voluptas culpa accusamus laborum quis, vitae ratione molestias ad doloribus totam! Rerum mollitia quos aspernatur.</p>
+        </div>
             <a href="leer mas"></a>
-            
+        </div>
         </div>
     <br>
     <br>
-        <div> <img src="./Assets/imagenes/bill.jpg" alt="Bill Gates" loading="lazy" width="300"> 
-        <h3>Bill Gates</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, qui quibusdam! At doloremque magni vel voluptas culpa accusamus laborum quis, vitae ratione molestias ad doloribus totam! Rerum mollitia quos aspernatur.</p>
+        <div class="tarjeta"> 
+            <img class="tarjetaimagen" src="./Assets/imagenes/bill.jpg" alt="Bill Gates" loading="lazy" width="300"> 
+        <div class="contenidotarjeta">
+            <h3>Bill Gates</h3>
+            <div class="tarjetaparrafo">
+        <p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>  Animi, qui quibusdam! 
+        At doloremque magni vel voluptas culpa accusamus laborum quis, vitae ratione molestias</p>
+    </div>
         <a href="leer mas"></a>
         </div>
+    </div>
     <br>
     <br>
-        <div> <img src="./Assets/imagenes/ada.jpeg" alt="Ada Lovelace" loading="lazy" width="300" >
-        <h3>Ada Lovelace</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, qui quibusdam! At doloremque magni vel voluptas culpa accusamus laborum quis, vitae ratione molestias ad doloribus totam! Rerum mollitia quos aspernatur.</p>
+        <div class="tarjeta"> 
+            <img class="tarjetaimagen"  src="./Assets/imagenes/ada.jpeg" alt="Ada Lovelace" loading="lazy" width="300" >
+        <div class="contenidotarjeta">
+            <h3>Ada Lovelace</h3>
+            <div class="tarjetaparrafo">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Animi, qui quibusdam! At doloremque magni vel voluptas culpa accusamus laborum quis, vitae ratione molestias ad doloribus totam! Rerum mollitia quos aspernatur.</p>
+    </div>
         <a href="leer mas"></a>
     </div>
-    
+</div>
     
      </section>
 
 <br>
 <br>
-<section>
-<img src="./Assets/imagenes/honolulu.jpg" alt="Honolulu" width="600">
-<div>
+<section class="sectiondividida">
+    <div class="imgizq">
+    </div>
+
+<div class="contenidoder">
     <h3>Bs. As. Octubre</h3>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis laboriosam tenetur incidunt? Soluta perferendis incidunt earum perspiciatis qui veniam possimus aut eos, delectus error quos ut corrupti sapiente aliquam assumenda.</p>
     <a href="">Conoce mas</a>
@@ -72,8 +99,7 @@
 <br>
 
 </section>
-
-<section>
+<!--<section>
     <table>
         <thead>
             <tr>
@@ -100,8 +126,8 @@
             </tr>
         </tbody>
 
-    </table>
-<!--aca va a ir el formulario-->
+    </table>-->
+
 </section>
 <br><br>
 <section>
@@ -120,7 +146,7 @@
 </div>
 <div><textarea name="" id="" cols="50" rows="10" placeholder="Sobre que quieres Hablar?">
 </textarea></div>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam hic debitis exercitationem quisquam culpa voluptatum iste cupiditate cum, rerum nobis sunt, quam inventore est quidem quo veniam! Quidem, reiciendis.</p>
+<!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam hic debitis exercitationem quisquam culpa voluptatum iste cupiditate cum, rerum nobis sunt, quam inventore est quidem quo veniam! Quidem, reiciendis.</p>
 <div>
 <p>Indique su provincia</p>
 <select >
@@ -129,7 +155,8 @@
 <option value="">Cordoba</option>
 
 </select>
-</div>
+</div>-->
+
 <br><br>
 <div>
     <p>Terminos y condiciones</p>
@@ -141,10 +168,10 @@
     <input type="reset" value="Limpiar">
 </div>
 
-
     </form>
 </section>
 <br><br><br>
+
 <footer>
     <a href=""></a>
     <a href=""></a>
